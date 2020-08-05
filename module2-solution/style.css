@@ -1,0 +1,162 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, Courier;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/********** Container **********/
+div#container {
+	background-color: #808080;
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: black;
+	float: left;
+}
+
+p {
+	text-align: center;
+	margin: 15px 15px 15px 15px;
+	clear: both;
+}
+
+/********** Titles **********/
+#p1 {
+  background-color: #FFCFFD;
+  width: 120px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  border: 1px solid black;
+  position: relative;
+  float: right;
+  font-size: 1.25em;
+}
+
+#p2 {
+  background-color: #8B0000;
+  width: 120px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  border: 1px solid black;
+  position: relative;
+  float: right;
+  color: white;
+  font-size: 1.25em;
+}
+
+#p3 {
+  background-color: #FFF88C;
+  width: 120px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  border: 1px solid black;
+  position: relative;
+  float: right;
+  font-size: 1.25em;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
