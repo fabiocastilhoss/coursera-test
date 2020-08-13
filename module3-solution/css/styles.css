@@ -1,0 +1,117 @@
+body{
+}
+
+#title{
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f7d456;
+  border-radius: 0;
+  border: 2px solid #2d2d2c;
+  padding-top: 10px;
+  /*padding-bottom: 10px;*/
+}
+
+.navbar-brand {
+ padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Arial, Helvetica;
+  font-size: 2em;
+  color: #2d2d2c;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand a:click {
+	color: red;
+}
+
+#main-content{
+	color: white;
+	background-color: #504e4d;
+}
+
+.container {
+	width: 95%;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	.navbar-brand {
+    padding-top: 10px;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+  /* Home Page */
+   .navbar-brand {
+    padding-top: 10px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Home Page */
+  .navbar-brand {
+    padding-top: 10px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    /*font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav {
+  	position: relative;
+  	margin-bottom: -10px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.8em;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    /*margin-top: 5px;*/
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container {
+	width: 85%;
+}
